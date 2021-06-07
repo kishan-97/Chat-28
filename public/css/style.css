@@ -157,6 +157,14 @@ body {
   height: 50px;
 }
 
+@media only screen and (max-width: 550px) {
+  .chat-btn {
+    width: 120px;
+    font-size: 100%;
+    height: 50px;
+  }
+}
+
 .chat-btn:hover {
   transition: all 0.5s ease 0s;
   background-color: rgb(244, 245, 244);
